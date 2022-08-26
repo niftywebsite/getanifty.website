@@ -1,7 +1,30 @@
-body {
-    font-family: 'Manrope', sans-serif;
+:root {
+  --primary-color: #0f4e79;
+  --dark-color: #192e43;
 }
 
-h1, h2, h3 {
-    font-weight: bold;
+body {
+  font-family: "Manrope", sans-serif;
+  color: var(--dark-color);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+i {
+  font-size: 40px;
+}
+.btn-my-primary {
+  background-color: var(--primary-color);
+}
+.btn-my-primary:hover {
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  opacity: 90%;
+}
+
+#skills div {
+  min-width: 100px;
 }
