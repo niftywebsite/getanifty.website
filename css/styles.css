@@ -4,7 +4,16 @@
     --dark-color: #192e43;
 }
 
-body, a {
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--dark-color);
+}
+
+body {
     font-family: "Manrope", sans-serif;
     color: var(--dark-color);
 }
@@ -28,6 +37,16 @@ h4 {
 
 i {
     font-size: 2.5rem;
+}
+
+footer {
+    background-color: #F8F9FA;
+}
+
+footer i {
+    font-size: 1.75rem;
+    color: var(--primary-color);
+    margin: 0 1rem;
 }
 
 #skills div {
