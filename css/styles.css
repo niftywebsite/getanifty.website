@@ -9,13 +9,21 @@ body, a {
     color: var(--dark-color);
 }
 
-h1, h3 {
+h1, h3, h4 {
     font-weight: bold;
 } 
 
 h2 {
    font-size: 1.25rem; 
    line-height: 2rem;
+}
+h3 {
+    font-size: 1.75rem;
+
+}
+h4 {
+    font-size: 1.5rem;
+
 }
 
 i {
