@@ -49,6 +49,10 @@ footer i {
     margin: 0 1rem;
 }
 
+main {
+    margin-top: 100px;
+}
+
 #skills div {
   min-width: 6rem;
 }
